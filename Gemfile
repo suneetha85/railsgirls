@@ -7,6 +7,13 @@ gem 'rails', '4.0.2'
 gem 'sqlite3', :group => [:development, :test]
 gem 'pg', :group => [:production]
 gem 'carrierwave'
+gem 'mini_magick', '3.5.0'
+
+
+#Authentication
+gem 'devise'
+
+gem 'gravtastic'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.0'
 
